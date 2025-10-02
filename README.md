@@ -1,56 +1,20 @@
-#  PROJEK: PENGELOLAAN KERJA KELOMPOK
+# IKAN SHOP
 
----
+## Latar Belakang Masalah
+Di Indonesia, kegiatan nelayan tradisional masih menghadapi berbagai kendala dalam distribusi hasil tangkapannya. Banyak nelayan yang tidak memiliki akses langsung ke pasar yang lebih luas, sementara di sisi lain, distributor, importir, atau konsumen dalam skala besar sering kesulitan mendapatkan pasokan ikan segar dalam jumlah besar secara cepat dan efisien.
 
-### Latar Belakang
-Dalam lingkungan kampus, mahasiswa sering diberi tugas atau proyek kelompok. Namun, masalah yang muncul antara lain:
+Proses distribusi ikan dari nelayan ke konsumen saat ini masih bergantung pada sistem tradisional. Distributor harus menunggu di dermaga untuk berebut ikan dari kapal nelayan, tanpa adanya kepastian ketersediaan atau jaminan harga. Hal ini menyebabkan ketidakefisienan dan potensi kerugian baik di sisi nelayan maupun pembeli.
 
-- Sulit membagi tugas secara adil dan jelas
-- Minimnya komunikasi antar anggota, sehingga progres tidak terpantau
-- Beberapa anggota tidak aktif atau tidak tahu perkembangan terakhir
-- Kesulitan mendokumentasikan kontribusi setiap anggota
+## Rumusan Masalah
+- Bagaimana membangun sistem yang dapat menghubungkan nelayan sebagai produsen dengan distributor atau pembeli dalam skala besar secara langsung dan efisien?  
+- Bagaimana mengurangi ketergantungan pembeli pada perantara tradisional agar distribusi ikan lebih cepat dan transparan?  
 
-Untuk itu, kami mengembangkan aplikasi Sistem Pengelolaan Kerja Kelompok berbasis Laravel, yang membantu mencatat, membagi, dan memonitor tugas secara digital, sehingga kerja kelompok lebih terstruktur, transparan, dan efisien.
+## Penyelesaian Masalah
+Dibuatlah sebuah **sistem berbasis website yang berfungsi seperti marketplace khusus ikan**. Sistem ini:  
 
----
+- Menghubungkan nelayan (penjual) langsung dengan distributor, importir, atau konsumen besar (pembeli).  
+- Menyediakan fitur booking ikan bahkan sebelum kapal nelayan kembali ke darat, sehingga pembeli tidak perlu menunggu di pelabuhan.  
+- Menyediakan informasi lengkap terkait jenis ikan, jumlah, harga, lokasi nelayan, dan estimasi waktu tangkapan tiba.  
+- Memungkinkan transaksi yang lebih efisien, transparan, dan cepat melalui platform digital yang mudah diakses.  
 
-### Tujuan Utama Proyek
-1. Mempermudah pembagian tugas dalam kelompok secara terorganisir.
-2. Mencatat setiap progres pekerjaan anggota kelompok.
-3. Memberikan notifikasi dan pengingat deadline tugas.
-4. Memastikan semua anggota terlibat sesuai peran masing-masing.
-5. Menyediakan laporan aktivitas sebagai bahan evaluasi kerja kelompok.
-
----
-
-### Fitur Utama
-- Autentikasi Pengguna: Login & register untuk ketua dan anggota.
-- Manajemen Kelompok: Ketua membuat kelompok, menambahkan anggota.
-- Manajemen Proyek: Buat project baru, kelola deskripsi & timeline.
-- Task Management: Tambah tugas, tetapkan deadline, assign ke anggota tertentu.
-- Progress Tracking: Status tugas (To-Do, In Progress, Done) & persentase progress project.
-- Komentar & Diskusi: Forum per tugas agar komunikasi terarah.
-- File Sharing: Upload dokumen/lampiran terkait project.
-- Dashboard & Laporan: Grafik progress dan laporan kontribusi tiap anggota.
-
----
-
-### Manfaat
-- Membantu kelompok bekerja lebih teratur dan profesional.
-- Mengurangi miskomunikasi antaranggota.
-- Meningkatkan produktivitas dengan pembagian tugas yang jelas.
-- Mempermudah monitoring oleh ketua kelompok.
-- Menyediakan data riil untuk evaluasi kerja sama tim.
-
-### Lingkup Proyek
-- User: Mahasiswa (ketua & anggota kelompok).
-- Teknologi: Laravel, MySQL/MariaDB, TailwindCSS (frontend), dan Chart.js (grafik).
-- Output: Aplikasi berbasis web untuk mengelola kerja kelompok.
-- Batasan: Fokus untuk kerja kelompok skala kecil-menengah (3–10 orang).
-
-### Alur Kerja Sistem (Konsep)
-1. Ketua membuat kelompok & project baru.
-2. Ketua/anggota menambahkan tugas.
-3. Anggota yang ditugaskan meng-update progres.
-4. Diskusi dilakukan lewat komentar di setiap tugas.
-5. Sistem menampilkan laporan kontribusi & progress project.
+Dengan adanya sistem ini, proses distribusi ikan menjadi lebih sederhana, efisien, dan saling menguntungkan bagi kedua belah pihak.
